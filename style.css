@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1 1 300px;
+    border: 2px dashed #fff;
+    color: purple;
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+}
+
+.card {
+        background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+    }
